@@ -9,10 +9,10 @@ function App() {
     return (
         <div className="App">
             <Container>
-                <h1 className="scoottitle">Scoot</h1>
-                <div className='playerDiv'>
-                    <ReactPlayer width={'100%'} height='100%'
-                                 url="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+                <h1 className="scoottitle">Usain Rolled</h1><br/>
+                <div className='playerDiv' style={{height: '50%'}}>
+                    <ReactPlayer width={'100%'}
+                                 url="https://youtu.be/NSSDNc-Fo0M"
                                  playing={true}
                                  muted={true}
                                  controls={true}
